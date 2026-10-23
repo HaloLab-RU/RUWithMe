@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>RUWithMe</title>
+  <rect width="48" height="48" rx="12" fill="#FFF6EF"/>
+  <g stroke="#8F293E" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 34V14h6.5a5.5 5.5 0 0 1 0 11H10m6.5 0L23 34"/>
+    <path d="M28 14v13.5a6 6 0 0 0 12 0V14"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "name": "ruwithme",
+  "version": "0.2.0",
+  "private": true,
+  "description": "A personal PhD workspace for research, manual courses and learning",
+  "scripts": {
+    "postinstall": "node scripts/init-workspace.mjs",
+    "init-workspace": "node scripts/init-workspace.mjs",
+    "start": "node app/server.mjs",
+    "dev": "node app/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check:public": "node scripts/check-public.mjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "pdfjs-dist": "6.4.299"
+  }
+}

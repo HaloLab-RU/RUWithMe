@@ -1,0 +1,4 @@
+synthetic,radius,baseline_loss,weighted_loss
+true,0.0,0.21,0.22
+true,0.1,0.28,0.25
+true,0.2,0.39,0.31

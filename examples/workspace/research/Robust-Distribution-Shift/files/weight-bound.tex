@@ -1,0 +1,17 @@
+% Synthetic derivation for demonstration only
+\documentclass{article}
+\usepackage{amsmath,amsthm}
+\newtheorem{lemma}{Lemma}
+\begin{document}
+\section*{A bounded-weight calculation}
+\setcounter{lemma}{1}
+\begin{lemma}[Bounded reweighting]
+Assume $0 \leq w(X) \leq B$ and $0 \leq \ell(X) \leq 1$. Then
+\[\mathbb{E}[w(X)\ell(X)] \leq B\mathbb{E}[\ell(X)].\]
+\end{lemma}
+\begin{proof}
+Multiply the pointwise inequality by the nonnegative loss and take expectations.
+\end{proof}
+\paragraph{Open question}Does the synthetic simulation satisfy the bounded-weight assumption, and what changes after clipping?
+This is an illustrative algebraic note, not a research claim.
+\end{document}

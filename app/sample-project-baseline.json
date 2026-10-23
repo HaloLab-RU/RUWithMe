@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "scenarioDate": "2026-10-21",
+  "projects": [
+    {
+      "path": "research/Robust-Distribution-Shift/README.md",
+      "files": {
+        "README.md": "72fcca136a9930f1bd3dc8068a23afc5007504ba6f55572a388c37b10e345cf4",
+        "files/experiment-report.html": "7c47e596721c2682697d67ea625ca73281ace73df62c25fb06a4c61fb21e5681",
+        "files/radius-sensitivity.csv": "fa5a2527c07b0fd4b03aa9ad38440676dae8e995ff64b7db30a4a4f2ded5d82c",
+        "files/shift-working-note.pdf": "3815485de2fbb52bd0cfb9c4c4c5df4c8ae1e70f4a034fd169b853e0b34f053d",
+        "files/weight-bound.tex": "0d5c3cd7ec0e3b4d2d394237c30399aa349e3679e6464a14590404caefc30cad",
+        "notes/advisor-meeting.md": "635046a156e902ee396dbe9440b6ff0490c14b72b603e1a8596846e6e0ff5f35",
+        "notes/experiment-log.md": "f1d45a5f61fd72620ea78e770fbece623acd1cf9e86a53c5bd5ac9efed2a9335"
+      },
+      "directories": [
+        "files",
+        "notes"
+      ]
+    },
+    {
+      "path": "research/Sequential-Uncertainty/README.md",
+      "files": {
+        "README.md": "38624462a8701305b72974262a1dd0baab31aae2cc5929899970aa03ed027aed",
+        "notes/stopping-example.md": "493fe4405bcc953e21ac57350efcb8736c5055ca2d0550491e6d049fd3a4ff6a"
+      },
+      "directories": [
+        "files",
+        "notes"
+      ]
+    },
+    {
+      "path": "research/Adaptive-Inference/README.md",
+      "files": {
+        "README.md": "af0f1e53dec7a9397de1969446f38db4a1c51a35ceea9590a65a3e88e54c36ac"
+      },
+      "directories": [
+        "files",
+        "notes"
+      ]
+    },
+    {
+      "path": "courses/Fall-2026/Regression-Lab/README.md",
+      "files": {
+        "README.md": "c37fdb89ce0292d1056b3df8ff6590298982f40f0b682f70ed6e6e6fc5a959f1",
+        "files/regression-lab.pdf": "96cf5d3460aabde58face4d7e106e0c5ba38ff1daea04730b19599f4e14c1829",
+        "notes/recitation-outline.md": "397b038277900ef97fc73e892ce5f6d1affc2d67ba7c107adb2e181f02353d2a"
+      },
+      "directories": [
+        "files",
+        "notes"
+      ]
+    },
+    {
+      "path": "courses/Fall-2026/Statistical-Theory/README.md",
+      "files": {
+        "README.md": "bb85f5c13d257c095ab76c3e076d03b600113d1995a5c1ea3d10b300ed86dead",
+        "notes/problem-set.md": "92e384d490285ce6cac3be5f502240c4e329a4e4d1d5814665aebb03875e8b4e"
+      },
+      "directories": [
+        "files",
+        "notes"
+      ]
+    },
+    {
+      "path": "learn/Martingales/README.md",
+      "files": {
+        "README.md": "8bd7f44de1eae908765427ec5869c52c0466f8a07c5a2931d2c8736de0fcf398",
+        "notes/checkpoint.md": "7af66ebbd084bfdb0dc5aa212427e0c736ad169ac6f73407999d971466772961"
+      },
+      "directories": [
+        "files",
+        "notes"
+      ]
+    },
+    {
+      "path": "learn/Scientific-Python/README.md",
+      "files": {
+        "README.md": "e399d7766bbba2f6fa4b5ac6cb54a7d2af984f5e8e506035e464f2880760f90f",
+        "files/plot-results.py": "7b67e635893997dc05d2032c206c4b233f99dc5b630169c906834ad1951ffb74",
+        "files/radius-sensitivity.csv": "fa5a2527c07b0fd4b03aa9ad38440676dae8e995ff64b7db30a4a4f2ded5d82c"
+      },
+      "directories": [
+        "files",
+        "notes"
+      ]
+    }
+  ]
+}

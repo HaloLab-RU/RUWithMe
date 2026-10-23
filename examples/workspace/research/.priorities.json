@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "revision": 1,
+  "levels": {
+    "p1": [
+      "research/Robust-Distribution-Shift/README.md",
+      "research/Pareto-Frontier-of-LLM-Inference/README.md"
+    ],
+    "p2": [
+      "research/Sequential-Uncertainty/README.md"
+    ],
+    "p3": [
+      "research/Adaptive-Inference/README.md"
+    ]
+  }
+}

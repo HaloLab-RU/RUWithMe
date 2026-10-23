@@ -1,0 +1,12 @@
+(()=>{
+ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const stamp=(value,zone)=>{if(!value||!Number.isFinite(Date.parse(value)))return 'Not recorded';return new Intl.DateTimeFormat('en-US',{timeZone:zone,month:'short',day:'numeric',year:'numeric',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(value));};
+ function calendar(snapshot){
+  const data=snapshot?.records?.calendar,zone=data?.timeZone||'America/New_York',sources=data?.sources||[];
+  return `<section class="source-freshness"><h2>Calendar sync history</h2><p class="small">Last successful captures · ${esc(zone)}. Opening this page does not sync events.</p>${sources.length?`<ul>${sources.map(s=>`<li><strong>${esc(s.title||'Calendar')}</strong><span>${esc(s.provider)} · Last synced ${esc(stamp(s.lastSyncedAt,zone))}</span>${s.window?`<small>Coverage: ${esc(stamp(s.window.startAt,zone))} – ${esc(stamp(s.window.endAt,zone))} (exclusive end)</small>`:''}</li>`).join('')}</ul>`:'<p class="small">No calendar capture yet.</p>'}</section>`;
+ }
+ function summary(snapshot){const zone=snapshot?.records?.calendar?.timeZone||'America/New_York',sources=snapshot?.records?.calendar?.sources||[],time=sources.map(row=>row.lastSyncedAt).filter(Boolean).sort()[0];return `<section class="freshness-summary" aria-label="Source freshness"><div><strong>Calendar</strong><span>${snapshot?.demo?'Local sample schedule':sources.length?`Oldest saved capture ${esc(stamp(time,zone))}`:'Local events · External sync optional'}</span><a href="#calendar">Open calendar →</a></div><div><strong>Courses</strong><span>${snapshot?.counts?.courses||0} manually maintained workspaces</span><a href="#courses">Open courses →</a></div><p>${snapshot?.demo?'Academic examples are synthetic.':'Local notes and tasks are saved in your workspace.'} · ${esc(zone)}</p></section>`;}
+
+ function courses(snapshot){const courses=(snapshot?.items?.courses||[]).filter(c=>c.canvas),zone=snapshot?.records?.calendar?.timeZone||'America/New_York';return courses.length?`<details class="source-freshness"><summary>Canvas last checked · Manual snapshots</summary><ul>${courses.map(c=>`<li><strong>${esc(c.title)}</strong><span>Last checked ${esc(stamp(c.canvas.syncedAt,zone))} · ${esc(zone)}</span></li>`).join('')}</ul><p class="small">Each course retains its observation scope. A new browser observation is needed to refresh it.</p></details>`:'';}
+ window.RUFreshness={summary,calendar,courses};
+})();

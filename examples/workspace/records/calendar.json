@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "revision": 1,
+  "timeZone": "America/New_York",
+  "sources": [],
+  "events": [
+    {
+      "id": "c23006cf-49c1-4948-adae-3b13fdf37631",
+      "title": "Statistical Theory - special lecture",
+      "location": "Seminar room (sample)",
+      "ownerPath": "courses/Fall-2026/Statistical-Theory/README.md",
+      "allDay": false,
+      "timeZone": "America/New_York",
+      "status": "confirmed",
+      "startAt": "2026-10-23T14:00:00.000Z",
+      "endAt": "2026-10-23T16:00:00.000Z",
+      "createdAt": "2026-10-23T12:00:00.000Z",
+      "updatedAt": "2026-10-23T12:00:00.000Z",
+      "synthetic": true
+    },
+    {
+      "id": "ccb2ee67-efb3-4cd1-a0cd-64b1bb5d98f7",
+      "title": "Regression Lab office hour",
+      "location": "TA office (sample)",
+      "ownerPath": "courses/Fall-2026/Regression-Lab/README.md",
+      "allDay": false,
+      "timeZone": "America/New_York",
+      "status": "confirmed",
+      "startAt": "2026-10-23T18:00:00.000Z",
+      "endAt": "2026-10-23T19:00:00.000Z",
+      "createdAt": "2026-10-23T12:00:00.000Z",
+      "updatedAt": "2026-10-23T12:00:00.000Z",
+      "synthetic": true
+    },
+    {
+      "id": "236d3bae-1a3d-4c55-adbc-b986e8c247df",
+      "title": "Advisor research meeting",
+      "location": "Research room (sample)",
+      "ownerPath": "research/Pareto-Frontier-of-LLM-Inference/README.md",
+      "allDay": false,
+      "timeZone": "America/New_York",
+      "status": "confirmed",
+      "startAt": "2026-10-23T19:00:00.000Z",
+      "endAt": "2026-10-23T20:00:00.000Z",
+      "createdAt": "2026-10-23T12:00:00.000Z",
+      "updatedAt": "2026-10-23T12:00:00.000Z",
+      "synthetic": true
+    }
+  ],
+  "workBlocks": []
+}

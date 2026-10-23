@@ -1,0 +1,116 @@
+1
+00:00:02,000 --> 00:00:10,403
+As a statistics PhD student, my day moves between research, coursework,
+teaching, and everything around them.
+
+2
+00:00:11,600 --> 00:00:19,516
+There are papers to read, questions to discuss with my advisor, classes to take,
+and TA work to prepare.
+
+3
+00:00:20,700 --> 00:00:24,865
+Travel plans and everyday life also need attention.
+
+4
+00:00:25,767 --> 00:00:30,602
+The challenge is keeping enough context to return to each piece of work.
+
+5
+00:00:32,700 --> 00:00:38,197
+RUWithMe is a workspace from HaloLab, led by Professor Yifan Hu.
+
+6
+00:00:39,100 --> 00:00:42,571
+It brings those parts of my day into one place.
+
+7
+00:00:44,667 --> 00:00:50,684
+Research gives each project a home for its current state, materials, and next steps.
+
+8
+00:00:51,600 --> 00:00:58,139
+Here, Pareto Frontier connects the project overview to its paper and research
+notes.
+
+9
+00:00:59,033 --> 00:01:03,634
+Courses keeps coursework and TA responsibilities together.
+
+10
+00:01:04,533 --> 00:01:08,407
+Learn is for topics and skills I want to develop.
+
+11
+00:01:09,300 --> 00:01:16,374
+Admin and Personal give practical responsibilities a place alongside academic
+work.
+
+12
+00:01:18,467 --> 00:01:22,110
+Today is where I decide what to move forward now.
+
+13
+00:01:23,000 --> 00:01:28,323
+I can choose a concrete task instead of facing every project at once.
+
+14
+00:01:29,233 --> 00:01:34,025
+The linked project helps me recover the context behind that task.
+
+15
+00:01:34,933 --> 00:01:40,599
+After working, I can record a session with progress, questions, and a next step.
+
+16
+00:01:42,700 --> 00:01:47,473
+Track brings together saved plans, work sessions, and reviews.
+
+17
+00:01:48,367 --> 00:01:52,839
+It helps me look back at what happened and prepare a weekly review.
+
+18
+00:01:53,733 --> 00:01:58,973
+Inbox gives a quick idea or an unfinished question somewhere to land.
+
+19
+00:01:59,867 --> 00:02:03,570
+I can return later and decide where it belongs.
+
+20
+00:02:05,667 --> 00:02:09,875
+The workspace is stored as local files on my computer.
+
+21
+00:02:10,767 --> 00:02:14,611
+Projects follow a structure I can inspect and change.
+
+22
+00:02:15,500 --> 00:02:20,175
+Daily gives me a place to think through my work with connected AI.
+
+23
+00:02:21,033 --> 00:02:25,025
+It can suggest a plan or help clarify a next step.
+
+24
+00:02:25,900 --> 00:02:29,607
+I choose the actions and confirm what gets saved.
+
+25
+00:02:30,467 --> 00:02:37,296
+With AI assistance, I can also adapt the organization and interface as my needs
+change.
+
+26
+00:02:39,367 --> 00:02:44,661
+This is still an early prototype, built around a personal way of working.
+
+27
+00:02:45,533 --> 00:02:50,484
+The direction is a workspace each researcher can shape for themselves.
+
+28
+00:02:51,367 --> 00:02:55,926
+Next, let me show how I would use this demo during a research day.

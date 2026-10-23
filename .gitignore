@@ -1,0 +1,22 @@
+# Personal work and private agent/runtime state
+/workspace/
+/.ruwithme/
+**/.codex/
+**/.edit-history/
+auth.json
+credentials.json
+session.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+
+# Dependencies, local QA and operating-system files
+node_modules/
+qa/
+.DS_Store
+Thumbs.db
+
+# Curated fictional examples remain versioned under examples/workspace/.

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "inbox/reading-questions.md",
+      "sha256": "fb927cbe63109aa7ed99a6cf657b21ce986208d6433ca6544671be0b43fc4bab",
+      "uploadedAt": "2026-10-21T12:10:00.000Z"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "acca468e-a7a2-478b-a023-3d5db5d78e11",
+      "text": "Synthetic idea: compare the bounded-weight and self-normalized arguments on the same toy example.",
+      "createdAt": "2026-10-21T12:10:00.000Z",
+      "updatedAt": "2026-10-21T12:10:00.000Z",
+      "revision": 1
+    }
+  ]
+}
