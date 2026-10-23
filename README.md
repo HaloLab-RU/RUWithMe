@@ -4,7 +4,7 @@ RUWithMe is an early prototype for managing everyday academic work, developed by
 
 ## Watch the demo
 
-[![Watch the three minute RUWithMe introduction](docs/media/demo-poster.png)](docs/media/ruwithme-demo.mp4)
+[![Watch the RUWithMe introduction](docs/media/demo-poster.png)](docs/media/ruwithme-demo.mp4)
 
 [Watch or download the MP4](docs/media/ruwithme-demo.mp4) · [English subtitles](docs/media/ruwithme-demo.srt)
 
